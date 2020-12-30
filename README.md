@@ -1,3 +1,3 @@
 # face-recog
 
-Divulge the beauty in you
+Divulge the beauty within
