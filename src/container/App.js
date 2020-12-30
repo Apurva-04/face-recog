@@ -76,7 +76,7 @@ class App extends Component{
       boxes: []
     });
 
-    fetch('http://localhost:4000/imageurl',
+    fetch('https://immense-mountain-49497.herokuapp.com/imageurl',
     {
       method: 'post',
       headers: {'Content-Type':'application/json'},
@@ -88,7 +88,7 @@ class App extends Component{
     .then((response)=>{
       if(response)
       {
-        fetch('http://localhost:4000/image',
+        fetch('https://immense-mountain-49497.herokuapp.com/image',
         {
           method: 'put',
           headers: {'Content-Type':'application/json'},
